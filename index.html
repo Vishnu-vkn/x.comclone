@@ -13,8 +13,10 @@
 
 <body class="bg-black text-white">
     <div class="flex md:container mx-auto my-4">
-        <div class="first w-10 md:w-[70%]">
-            <div class="logo invert my-4">
+        <div class="first w-16 md:w-[70%]">
+            
+            <div class="sidebar flex md:items-end flex-col sticky top-0 ">
+                <div class="logo invert my-4 self-start mx-16">
                 <svg viewBox="0 0 24 24" aria-hidden="true"
                     class="w-8 m-auto  r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
                     <g>
@@ -23,59 +25,63 @@
                         </path>
                     </g>
                 </svg>
-            </div>
-            <div class="sidebar flex md:items-end flex-col ">
-                <ul class="flex flex-col text-xl space-y-3 md:px-11 font-semibold ">
+            </div>  
+                <ul class="flex flex-col text-xl space-y-3 md:px-11 font-semibold w-full">
                     <li
-                        class="flex md:justify-start items-center justify-center gap-3 px-4 mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        class="flex md:justify-start items-center justify-center gap mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
                         <span class="  material-symbols-outlined">home</span><span class="hidden md:block">Home</span>
                     </li>
                     <li
-                        class="flex md:justify-start items-center justify-center gap-3 px-4 mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        class="flex md:justify-start items-center justify-center gap mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
                         <span class="material-symbols-outlined">notifications </span><span class="hidden md:block">Notifications</span>
                     </li>
                     <li
-                        class="flex md:justify-start items-center justify-center gap-3 px-4 mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        class="flex md:justify-start items-center justify-center gap mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
                         <span class="material-symbols-outlined"> search</span ><span class="hidden md:block">Explore</span>
                     </li>
                     <li
-                        class="flex md:justify-start items-center justify-center gap-3 px-4 mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        class="flex md:justify-start items-center justify-center gap mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
                         <span class="text-3xl material-symbols-outlined"> message </span>
                         <span class="hidden md:block">Messages</span>
                     </li>
                     <li
-                        class="flex md:justify-start items-center justify-center gap-3 px-4 mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        class="flex md:justify-start items-center justify-center gap mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
                         <span class="text-3xl material-symbols-outlined"> lists </span>
                         <span class="hidden md:block">Lists</span>
                     </li>
                     <li
-                        class="flex md:justify-start items-center justify-center gap-3 px-4 mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        class="flex md:justify-start items-center justify-center gap mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
                         <span class="text-3xl material-symbols-outlined"> bookmarks </span>
                         <span class="hidden md:block">Bookmarks</span>
                     </li>
                     <li
-                        class="flex md:justify-start items-center justify-center gap-3 px-4 mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        class="flex md:justify-start items-center justify-center gap mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
                         <span class="text-3xl material-symbols-outlined"> Group </span>
                         <span class="hidden md:block">Communities</span>
                     </li>
                     <li
-                        class="flex md:justify-start items-center justify-center gap-3 px-4 mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        class="flex md:justify-start items-center justify-center gap mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
                         <span class="text-3xl material-symbols-outlined"> box </span>
                         <span class="hidden md:block">Premium</span>
                     </li>
                     <li
-                        class="flex md:justify-start items-center justify-center gap-3 px-4 mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        class="flex md:justify-start items-center justify-center gap mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
                         <span class="text-3xl material-symbols-outlined"> person </span>
                         <span class="hidden md:block">Profile  </span>
                     </li>
                     <li
-                        class="flex md:justify-start items-center justify-center gap-3 px-4 mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+                        class="flex md:justify-start items-center justify-center gap-3  mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
                         <span class="text-3xl material-symbols-outlined"> pending </span>
                         <span class="hidden md:block">More</span>
                     </li>
                     <li>
                         <div class="button w-full text-center my-4">
-                            <button class="bg-[#1d9bf0] text-white rounded-full text-xl px-20 py-3 ">Post</button>
+                            <button class="hidden md:block bg-[#1d9bf0] text-white rounded-full text-xl px-20 py-3 ">Post</button>
+                           <button class="md:hidden bg-[#1d9bf0]  px-2 md:px-4 text-xl rounded-full py-1 md:py-3 text-white">
+                                <span class="material-symbols-outlined">
+                                    edit
+                                </span>
+                            </button>
                         </div>
                     </li>
                 </ul>
@@ -83,7 +89,7 @@
         </div>
 
 
-        <div class="second w-full border-[1px] border-x-white border-y-black">
+        <div class="second w-full border-[1px] border-x-gray-600 border-y-black">
             <div class="top flex p-3 relative">
                 <div class="absolute w-16 h-1 rounded-full bg-blue-500 bottom-0 left-[18%] z-10"></div>
                 <div class="left w-1/2 flex justify-center font-smibold text-lg">For You</div>
@@ -129,9 +135,9 @@
                     </div>
                 </div>
             </div>
-            <hr>
+            
             <div class="posts">
-                <div class="post">
+                <div class="post border-[1px] border-y-gray-600 border-x-0">
                     <div class="flex">
                         <div class="image m-4">
                             <img src="img/dpdhoni.jpeg" alt="" class="w-10 h-10 rounded-full object-cover scale-120">
@@ -168,7 +174,45 @@
                         </div>
                     </div>
                 </div>
-                <hr class="bg-gray-700">
+            </div>
+             <div class="posts">
+                <div class="post border-[1px] border-y-gray-600 border-x-0">
+                    <div class="flex">
+                        <div class="image m-4">
+                            <img src="img/dpdhoni.jpeg" alt="" class="w-10 h-10 rounded-full object-cover scale-120">
+                        </div>
+                        <div class="content my-3">
+                            <span class="font-bold text-white hover:underline cursor-pointer ">MS Dhoni</span> <span
+                                class="text-gray-500">@picture . 7h</span>
+                            <div>legend</div>
+                            <div class="posting m-4 ml-0">
+                                <img src="img/dhoni.jpeg" alt="" class="w-90 h-60 rounded-lg">
+                            </div>
+                            <div class="icons flex text-gray-600 mx-3 justify-between ">
+                                <div class="icon flex items-center justify-center justifmd:y-center">
+                                    <span class="material-symbols-outlined">
+                                        chat_bubble
+                                    </span>1K
+                                </div>
+                                <div class="icon flex items-center justify-center justifmd:y-center">
+                                    <span class="material-symbols-outlined">
+                                        repeat
+                                    </span> 1k
+                                </div>
+                                <div class="icon flex items-center justify-center justifmd:y-center">
+                                    <span class="material-symbols-outlined">
+                                        Favorite
+                                    </span> 1k
+                                </div>
+                                <div class="icon flex items-center justify-center justifmd:y-center">
+                                    <span class="material-symbols-outlined">
+                                        bar_chart
+                                    </span> 1k
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
