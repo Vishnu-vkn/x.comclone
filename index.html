@@ -14,18 +14,18 @@
 <body class="bg-black text-white">
     <div class="flex md:container mx-auto my-4">
         <div class="first w-16 md:w-[70%]">
-            
+
             <div class="sidebar flex md:items-end flex-col sticky top-0 ">
-                <div class="logo invert my-4 self-start mx-16">
-                <svg viewBox="0 0 24 24" aria-hidden="true"
-                    class="w-8 m-auto  r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
-                    <g>
-                        <path
-                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
-                        </path>
-                    </g>
-                </svg>
-            </div>  
+                <div class="logo invert my-4 self-start  mx-2 md:mx-16">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"
+                        class="w-8 m-auto  r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                        <g>
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                            </path>
+                        </g>
+                    </svg>
+                </div>
                 <ul class="flex flex-col text-xl space-y-3 md:px-11 font-semibold w-full">
                     <li
                         class="flex md:justify-start items-center justify-center gap mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
@@ -33,11 +33,13 @@
                     </li>
                     <li
                         class="flex md:justify-start items-center justify-center gap mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
-                        <span class="material-symbols-outlined">notifications </span><span class="hidden md:block">Notifications</span>
+                        <span class="material-symbols-outlined">notifications </span><span
+                            class="hidden md:block">Notifications</span>
                     </li>
                     <li
                         class="flex md:justify-start items-center justify-center gap mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
-                        <span class="material-symbols-outlined"> search</span ><span class="hidden md:block">Explore</span>
+                        <span class="material-symbols-outlined"> search</span><span
+                            class="hidden md:block">Explore</span>
                     </li>
                     <li
                         class="flex md:justify-start items-center justify-center gap mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
@@ -67,7 +69,7 @@
                     <li
                         class="flex md:justify-start items-center justify-center gap mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
                         <span class="text-3xl material-symbols-outlined"> person </span>
-                        <span class="hidden md:block">Profile  </span>
+                        <span class="hidden md:block">Profile </span>
                     </li>
                     <li
                         class="flex md:justify-start items-center justify-center gap-3  mr-4 md:w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
@@ -76,8 +78,10 @@
                     </li>
                     <li>
                         <div class="button w-full text-center my-4">
-                            <button class="hidden md:block bg-[#1d9bf0] text-white rounded-full text-xl px-20 py-3 ">Post</button>
-                           <button class="md:hidden bg-[#1d9bf0]  px-2 md:px-4 text-xl rounded-full py-1 md:py-3 text-white">
+                            <button
+                                class="hidden md:block bg-[#1d9bf0] text-white rounded-full text-xl px-20 py-3 ">Post</button>
+                            <button
+                                class="md:hidden bg-[#1d9bf0]  px-2 md:px-4 text-xl rounded-full py-1 md:py-3 text-white">
                                 <span class="material-symbols-outlined">
                                     edit
                                 </span>
@@ -110,11 +114,12 @@
                         <span class="material-symbols-outlined">
                             globe_asia
                         </span>
-                        <span class="font-bold" >Everyone can apply</span>
-                    </div>
+                        <span class="font-bold">Everyone can reply</span>
+                    </div>          
                     <div class="w-[90%] h-[0.2px] bg-gray-700 my-3"></div>
-                    <div class="blueicons flex gap-2 text-blue-400 items-center" >
-                                        <span class="material-symbols-outlined cursor-pointer">
+                    <div class="flex justify-between">
+                    <div class="blueicons flex gap-2 text-blue-400 items-center">
+                        <span class="material-symbols-outlined cursor-pointer">
                             image
                         </span>
                         <span class="material-symbols-outlined cursor-pointer">
@@ -133,9 +138,14 @@
                             pin_drop
                         </span>
                     </div>
+                    <div class="postbtn">
+                        <button class="bg-[#1d9bf0] px-6 mx-5 text-sm rounded-full py-2 text-white font-bold ">Post
+                        </button>
+                    </div>
+                    </div>
                 </div>
             </div>
-            
+
             <div class="posts">
                 <div class="post border-[1px] border-y-gray-600 border-x-0">
                     <div class="flex">
@@ -150,24 +160,28 @@
                                 <img src="img/dhoni.jpeg" alt="" class="w-90 h-60 rounded-lg">
                             </div>
                             <div class="icons flex text-gray-600 mx-3 justify-between ">
-                                <div class="icon flex items-center justify-center justifmd:y-center">
+                                <div class="icon flex items-center justify-center  hover:cursor-pointer
+                                hover:bg-gray-900 hover:text-blue-500 p-1 hover:rounded-full">
                                     <span class="material-symbols-outlined">
                                         chat_bubble
                                     </span>1K
                                 </div>
-                                <div class="icon flex items-center justify-center justifmd:y-center">
-                                    <span class="material-symbols-outlined">
-                                        repeat
+                                <div class="icon flex items-center justify-center hover:cursor-pointer
+                                hover:bg-gray-900 hover:text-green-500 p-1 hover:rounded-full" ">
+                                    <span class=" material-symbols-outlined">
+                                    repeat
                                     </span> 1k
                                 </div>
-                                <div class="icon flex items-center justify-center justifmd:y-center">
-                                    <span class="material-symbols-outlined">
-                                        Favorite
+                                <div class="icon flex items-center justify-center hover:cursor-pointer
+                                hover:bg-gray-900 hover:text-pink-500 p-1 hover:rounded-full"">
+                                    <span class=" material-symbols-outlined">
+                                    Favorite
                                     </span> 1k
                                 </div>
-                                <div class="icon flex items-center justify-center justifmd:y-center">
-                                    <span class="material-symbols-outlined">
-                                        bar_chart
+                                <div class="icon flex items-center justify-center hover:cursor-pointer
+                                hover:bg-gray-900 hover:text-blue-500 p-1 hover:rounded-full"">
+                                    <span class=" material-symbols-outlined">
+                                    bar_chart
                                     </span> 1k
                                 </div>
                             </div>
@@ -175,7 +189,7 @@
                     </div>
                 </div>
             </div>
-             <div class="posts">
+            <div class="posts">
                 <div class="post border-[1px] border-y-gray-600 border-x-0">
                     <div class="flex">
                         <div class="image m-4">
@@ -189,24 +203,28 @@
                                 <img src="img/dhoni.jpeg" alt="" class="w-90 h-60 rounded-lg">
                             </div>
                             <div class="icons flex text-gray-600 mx-3 justify-between ">
-                                <div class="icon flex items-center justify-center justifmd:y-center">
+                                <div class="icon flex items-center justify-center  hover:cursor-pointer
+                                hover:bg-gray-900 hover:text-blue-500 p-1 hover:rounded-full">
                                     <span class="material-symbols-outlined">
                                         chat_bubble
                                     </span>1K
                                 </div>
-                                <div class="icon flex items-center justify-center justifmd:y-center">
-                                    <span class="material-symbols-outlined">
-                                        repeat
+                                <div class="icon flex items-center justify-center hover:cursor-pointer
+                                hover:bg-gray-900 hover:text-green-500 p-1 hover:rounded-full" ">
+                                    <span class=" material-symbols-outlined">
+                                    repeat
                                     </span> 1k
                                 </div>
-                                <div class="icon flex items-center justify-center justifmd:y-center">
-                                    <span class="material-symbols-outlined">
-                                        Favorite
+                                <div class="icon flex items-center justify-center hover:cursor-pointer
+                                hover:bg-gray-900 hover:text-pink-500 p-1 hover:rounded-full"">
+                                    <span class=" material-symbols-outlined">
+                                    Favorite
                                     </span> 1k
                                 </div>
-                                <div class="icon flex items-center justify-center justifmd:y-center">
-                                    <span class="material-symbols-outlined">
-                                        bar_chart
+                                <div class="icon flex items-center justify-center hover:cursor-pointer
+                                hover:bg-gray-900 hover:text-blue-500 p-1 hover:rounded-full"">
+                                    <span class=" material-symbols-outlined">
+                                    bar_chart
                                     </span> 1k
                                 </div>
                             </div>
@@ -221,7 +239,7 @@
             <div class="search m-3 px-4">
                 <input type="text" class="w-1/2 rounded-full  text-white px-4 py-2 bg-[#16181c]" placeholder="Search">
             </div>
-            <div class="whats m-6 w-1/2 py-5 bg-[#16181c] rounded-xl space-y-3">
+            <div class="whats sticky top-0 m-6 w-1/2 py-5 bg-[#16181c] rounded-xl space-y-3">
                 <h1 class="text-xl px-3  font-bold">Whats Happening</h1>
                 <div class="item p-3 hover:bg-[#16181c] cursor-pointer px-3">
                     <div class="text-sm text-gray-200">Trending in India</div>
@@ -248,16 +266,43 @@
                 </div>
             </div>
 
-            <div class="who m-6 w-1/2 py-5 bg-[#16181c] rounded-xl space-y-3">
+            <div class="who sticky top-[50vh] m-6 bg-[#16181c] w-1/2 py-5 rounded-xl space-y-1">
                 <h1 class="text-xl px-3  font-bold">Who to Follow</h1>
-
-                <div class="item p-3 px-3 space-y-4">
-                    <div class="font-bold cursor-pointer text-gray-200">MS Dhoni</div>
-                    <div class="font-bold cursor-pointer text-gray-200">Lionel Messi</div>
-                    <div class="font-bold cursor-pointer text-gray-200">Mohanlal</div>
+                <div class="item p-3 items-center gap-2  justify-between flex hover:bg-gray-800 cursor-pointer ">
+                    <div class="flex gap-3">
+                        <div class="p1">
+                            <img class="w-12 h-12"
+                                src="img/Symbol.svg"
+                                alt="vercel">
+                        </div>
+                        <div class="p2">
+                            <div>Vercel</div>
+                            <div class="text-gray-500">@vercel</div>
+                        </div>
+                    </div>
+                    <div class="p3">
+                        <button class="bg-white px-5 py-2 rounded-full font-bold text-black">Follow</button>
+                    </div>
 
                 </div>
-                <div class="text-blue-600 px-3 ">Show More</div>
+                <div class="item p-3 items-center gap-2  justify-between flex hover:bg-gray-800 cursor-pointer ">
+                    <div class="flex gap-3">
+                        <div class="p1">
+                            <img class="w-12 h-12"
+                                src="img/react-svgrepo-com.svg"
+                                alt="vercel">
+                        </div>
+                        <div class="p2">
+                            <div>React</div>
+                            <div class="text-gray-500">@react</div>
+                        </div>
+                    </div>
+                    <div class="p3">
+                        <button class="bg-white px-5 py-2 rounded-full font-bold text-black">Follow</button>
+                    </div>
+
+                </div>
+                <div class="text-blue-600 px-3 cursor-pointer hover:underline">Show More</div>
             </div>
         </div>
 
